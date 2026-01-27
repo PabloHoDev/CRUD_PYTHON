@@ -1,47 +1,41 @@
-# 🗂️ CRUD em Python (Console)
+# 📌 CRUD de Usuários em Python (POO)
 
-Projeto CRUD (Create, Read, Update, Delete) desenvolvido em **Python**, com foco no aprendizado dos fundamentos da linguagem e na construção de lógica aplicada a um sistema real.
-
-A aplicação funciona via **terminal**, permitindo o gerenciamento simples de usuários por meio de um menu interativo.
+Projeto simples de **CRUD (Create, Read, Update, Delete)** desenvolvido em **Python**, utilizando **Programação Orientada a Objetos (POO)**, com foco em organização, boas práticas e separação de responsabilidades.
 
 ---
 
-## 📌 Funcionalidades
+## 🎯 Objetivo do Projeto
 
-- ➕ Criar usuários
-- 📋 Listar usuários cadastrados
-- ✏️ Atualizar dados de um usuário
-- 🗑️ Deletar usuários
-- 🔢 Geração automática de ID
-- ⌨️ Interface interativa no console
+Demonstrar na prática:
 
----
+- Lógica de programação
+- Programação Orientada a Objetos
+- Organização de projeto em camadas
+- Manipulação de dados em memória
+- Estruturação para projetos reais
 
-## 🧠 Conceitos Aplicados
-
-Este projeto utiliza apenas recursos nativos do Python e trabalha os seguintes conceitos:
-
-- Funções
-- Listas
-- Dicionários
-- Estruturas condicionais (`if / elif / else`)
-- Estruturas de repetição (`for`, `while`)
-- Organização e lógica de código
-- Entrada e saída de dados via terminal
+Ideal para **portfólio iniciante / júnior**.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## ⚙️ Funcionalidades
 
-- **Python 3.x**
-- Terminal / Console
+- ✅ Criar usuário
+- 📋 Listar usuários
+- ✏️ Atualizar usuário
+- 🗑️ Deletar usuário
+- 🚫 Validações básicas de entrada
+- ⚠️ Tratamento de erros
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🧠 Conceitos Utilizados
 
-```text
-projeto_crud/
-│
-├── crud.py
-└── README.md
+- Classes e objetos
+- Encapsulamento
+- Separação de responsabilidades
+- Estrutura em camadas (`model`, `service`)
+- Tratamento de exceções
+- Menu interativo no terminal
+
+---
