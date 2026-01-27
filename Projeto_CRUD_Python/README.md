@@ -39,3 +39,17 @@ Ideal para **portfólio iniciante / júnior**.
 - Menu interativo no terminal
 
 ---
+
+## 📁 Estrutura do Projeto
+
+Projeto_CRUD_Python/
+│
+├── model/
+│   └── usuario.py
+│
+├── service/
+│   └── usuario_service.py
+│
+├── main.py
+│
+└── README.md
