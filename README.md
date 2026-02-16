@@ -93,3 +93,7 @@ Servir como base para evolução para níveis mais avançados
  Criar testes automatizados
 
  Dockerizar aplicação
+
+ 👨‍💻 Autor
+
+Projeto desenvolvido para fins de estudo e evolução em arquitetura de APIs REST com Python.
