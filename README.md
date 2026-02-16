@@ -1,55 +1,95 @@
-# 📌 CRUD de Usuários em Python (POO)
+📌 Projeto CRUD em Python – (AINDA SOFRERÁ ATUALIZAÇÕES)
 
-Projeto simples de **CRUD (Create, Read, Update, Delete)** desenvolvido em **Python**, utilizando **Programação Orientada a Objetos (POO)**, com foco em organização, boas práticas e separação de responsabilidades.
+📖 Descrição
 
----
+Este projeto é uma API REST de CRUD (Create, Read, Update e Delete) desenvolvida em Python utilizando:
 
-## 🎯 Objetivo do Projeto
+FastAPI
 
-Demonstrar na prática:
+SQLAlchemy
 
-- Lógica de programação
-- Programação Orientada a Objetos
-- Organização de projeto em camadas
-- Manipulação de dados em memória
-- Estruturação para projetos reais
+SQLite
 
-Ideal para **portfólio iniciante / júnior**.
+O projeto foi estruturado seguindo boas práticas de organização de código, separando responsabilidades em:
 
----
-
-## ⚙️ Funcionalidades
-
-- ✅ Criar usuário
-- 📋 Listar usuários
-- ✏️ Atualizar usuário
-- 🗑️ Deletar usuário
-- 🚫 Validações básicas de entrada
-- ⚠️ Tratamento de erros
-
----
-
-## 🧠 Conceitos Utilizados
-
-- Classes e objetos
-- Encapsulamento
-- Separação de responsabilidades
-- Estrutura em camadas (`model`, `service`)
-- Tratamento de exceções
-- Menu interativo no terminal
-
----
-
-## 📁 Estrutura do Projeto
+🗂 Estrutura do Projeto
 
 Projeto_CRUD_Python/
 │
-├── model/
+├── modelos/
 │   └── usuario.py
 │
-├── service/
-│   └── usuario_service.py
+├── repositorios/
+│   └── usuario_repositorio.py
+│
+├── servicos/
+│   └── usuario_servico.py
+│
+├── rotas/
+│   └── usuario_rotas.py
+│
+├── configuracoes/
+│   └── banco.py
 │
 ├── main.py
-│
+├── requirements.txt
 └── README.md
+
+🧠 Arquitetura
+📁 modelos
+
+Define as tabelas do banco de dados.
+
+📁 repositorios
+
+Responsável pelo acesso direto ao banco de dados.
+
+📁 servicos
+
+Contém as regras de negócio.
+
+📁 rotas
+
+Define os endpoints da API.
+
+📁 configuracoes
+
+Configuração da conexão com o banco de dados.
+
+🚀 Tecnologias Utilizadas
+
+Python 3.10+
+
+FastAPI
+
+SQLAlchemy
+
+SQLite
+
+Uvicorn
+
+🎯 Objetivo do Projeto
+
+Este projeto tem como objetivo:
+
+Aplicar boas práticas de organização
+
+Separar responsabilidades
+
+Criar base escalável
+
+Servir como base para evolução para níveis mais avançados
+
+🚀 Próximas Melhorias (Planejamento)
+
+ Adicionar atualização (PUT)
+
+ Implementar validação com Pydantic
+
+ Adicionar autenticação JWT
+
+ Implementar paginação
+
+ Criar testes automatizados
+
+ Dockerizar aplicação
